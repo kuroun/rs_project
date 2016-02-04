@@ -1,0 +1,54 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+#main{
+	margin: 20px 350px;
+	border: solid 1px;
+	padding: 10px;
+}
+#title{
+	text-align: center
+}
+#main_form{
+	width: 400px;
+	margin-bottom: 50px;
+}
+.input_fields{
+	float: right;
+}
+#user_id{
+		width: 183px;
+}
+.lbl{
+	clear:right;
+	float: left;
+}
+.smBtn{
+	clear: left;
+	float: right;
+}
+#tbl_main{
+	margin-top: 30px;
+    height: 350px;
+    overflow: scroll;
+    clear: right;
+}
+#tbl_main table{
+	width: 100%;
+}
+.tbl{
+	border: solid 1px;
+}
+
