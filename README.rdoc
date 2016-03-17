@@ -5,4 +5,4 @@
 - In order to improve performance of retrieval:
   1. I add index to columns: items_users.user_id, categories_items.category_id, items_users.item_id, items.name
   2.  Implement Rails page caching in RecommendationsController 
-  3. Testing coverage (using Rspec): I create nine test cases that cover on Models, Controllers, Routes, and Views
+- Testing coverage (using Rspec): I create nine test cases that cover on Models, Controllers, Routes, and Views
